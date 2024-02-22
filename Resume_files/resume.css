@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page{
+    border: 3px solid rgb(49, 49, 131); 
+    width: 900px;   
+    height: 80em;
+    margin: 80px auto;
+}
+.left-side{
+    float: left;
+    width: 280px;
+    height: 80em;
+} 
+.left-side .image img{
+    width: 240px;
+    height: 270px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+.left-side .name{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.left-side .details{
+    padding: 10px;
+    margin: 10px;
+}
+.left-side .details .add h3{
+    padding: 1px;
+    margin: 10px;
+    background-color:rgb(49, 49, 131);
+    color: rgb(247, 244, 244);
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.left-side .details i{
+    background-color:rgb(49, 49, 131) ;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    color: white;
+    padding: 7px;
+}
+.left-side .skills .k li{
+    list-style: disc;
+    padding: 8px;
+    margin: 5px 15px 5px;
+}
+.left-side .skills .s h3{
+    padding: 1px;
+    margin: 10px;
+    background-color:rgb(49, 49, 131);
+    color: rgb(247, 244, 244);
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.left-side .lang .G li{
+    list-style: disc;
+    padding: 8px;
+    margin: 5px 15px 5px;
+}
+.left-side .lang .L h3{
+    padding: 1px;
+    margin: 10px;
+    background-color:rgb(49, 49, 131);
+    color: rgb(247, 244, 244);
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.left-side .hobby .y li{
+    list-style: disc;
+    padding: 8px;
+    margin: 5px 15px 5px;
+}
+.left-side .hobby .H h3{
+    padding: 1px;
+    margin: 10px;
+    background-color:rgb(49, 49, 131);
+    color: rgb(247, 244, 244);
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.right-side{
+    float: right;
+    width: 580px;
+    height: 80em;
+}
+.right-side .obj .B{
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+}
+.right-side .obj .O h3{
+    padding: 7px;
+    margin: 10px;
+    background-color:rgb(49, 49, 131);
+    color: rgb(247, 244, 244);
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    font-size:larger;
+}
+.right-side .Edu .D li{
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    list-style: disc;
+}
+.right-side .Edu .E h3{
+    padding: 7px;
+    margin: 10px;
+    background-color:rgb(49, 49, 131);
+    color: rgb(247, 244, 244);
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    font-size:larger;
+}
+.right-side .Intern .in li{
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    list-style: disc;
+}
+.right-side .Intern .I h3{
+    padding: 7px;
+    margin: 10px;
+    background-color:rgb(49, 49, 131);
+    color: rgb(247, 244, 244);
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    font-size:larger;
+}
+.right-side .BT .t{
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+}
+.right-side .BT .bt{
+    padding: 7px;
+    margin: 10px;
+    background-color:rgb(49, 49, 131);
+    color: rgb(247, 244, 244);
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+}
+.right-side .Declar .dl1 p{
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+}
+.right-side .Declar .dl h3{
+    padding: 7px;
+    margin: 10px;
+    background-color:rgb(49, 49, 131);
+    color: rgb(247, 244, 244);
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+}
